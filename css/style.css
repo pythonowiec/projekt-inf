@@ -1,0 +1,31 @@
+*{
+    margin-top: 0px;
+}
+body{
+    background-color: lightblue;
+}
+.nav{
+    background-color: #0aa5cc;   
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+
+    left: 260px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: honeydew;
+    text-decoration: none;
+    padding: 28px 50px;
+
+    
+    
+}
+
+.nav-link:hover{
+    background-color: honeydew;
+    color: #0aa5cc;
+}
