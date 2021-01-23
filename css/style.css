@@ -1,25 +1,29 @@
 *{
-    margin-top: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
 }
 body{
-    background-color: lightblue;
+    background-color: #49c1e6;
+    
 }
 .nav{
     background-color: #0aa5cc;   
     height: 50px;
-    width: 1000px;
+    width: 70%;
     text-align: center;
     padding-top: 25px;
     position: relative;
-
-    left: 260px;
+    left: 250px;
+    top: 40px;
+    
 }
 
 .nav-link{
     font-size: 20px;
-    color: honeydew;
     text-decoration: none;
     padding: 28px 50px;
+    transition: background-color .4s;
 
     
     
@@ -28,4 +32,47 @@ body{
 .nav-link:hover{
     background-color: honeydew;
     color: #0aa5cc;
+}
+
+
+
+.header{
+    padding-left: 25px;
+    border-bottom: 3px honeydew solid;
+}
+
+.footer{
+    background-color: #0aa5cc;   
+    text-align: center;
+    padding-top: 25px;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+
+}
+
+.content{
+    margin-top: 150px;
+    padding-left: 20px;
+    opacity: 0;
+    animation: show .7s forwards;
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    width: 250px;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
 }
