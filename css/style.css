@@ -56,7 +56,8 @@ body{
     margin-top: 150px;
     padding-left: 20px;
     opacity: 0;
-    animation: show .7s forwards;
+    width: 500px;
+    text-align: justify;
 }
 
 .banner{
@@ -65,14 +66,9 @@ body{
     width: 250px;
 }
 
-@keyframes show{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0.5;
-    }
-    100%{
-        opacity: 1;
-    }
+.image{
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+    
 }
