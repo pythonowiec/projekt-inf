@@ -1,4 +1,6 @@
-const content = document.getElementById("content")
+const content = document.getElementById("content");
+
+const image = document.getElementById("bug");
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -10,5 +12,15 @@ document.addEventListener("DOMContentLoaded", () => {
         fill: "forwards"
     }
     )
+
+    bug.animate([
+        { transform: 'rotate(360deg)' },
+        {opacity: 1}
+        
+    ],
+    {
+        duration: 1000,
+        fill: "forwards"
+    })
 
 });

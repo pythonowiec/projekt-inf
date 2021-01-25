@@ -2,9 +2,12 @@
     margin: 0px;
     color: white;
     font-size: 20px;
+
+
 }
 body{
     background-color: #49c1e6;
+    overflow-x: hidden;
     
 }
 .nav{
@@ -53,6 +56,7 @@ body{
 }
 
 .content{
+    font-size: 23px;
     margin-top: 150px;
     padding-left: 20px;
     opacity: 0;
@@ -67,8 +71,13 @@ body{
 }
 
 .image{
-    position: relative;
-    bottom: 200px;
-    left: 1000px;
     
+    position: relative;
+    bottom: 300px;
+    left: 800px;
+    
+}
+#bug{
+    opacity: 0;
+
 }
