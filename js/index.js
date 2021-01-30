@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
         duration: 1000,
         fill: "forwards"
     }
-    )
+    );
 
-    bug.animate([
+    image.animate([
         { transform: 'rotate(360deg)' },
         {opacity: 1}
         
@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         duration: 1000,
         fill: "forwards"
-    })
+    }
+    );
 
 });
