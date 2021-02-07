@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.google.com/specimen/Lato?query=lato&preview.text_type=custom&sidebar.open=true&selection.family=Lato:wght@400;900" rel="stylesheet">
-    <title>Strona Główna</title>
+    <title>Kontakt</title>
 </head>
 <body>
 
@@ -20,26 +20,26 @@
             <a href="kontakt.html" class="nav-link">Kontakt</a> 
         </div>
         
-        <div class="content" id="content"> 
-           
-            <strong>Bug</strong> to czwarta najdłuższa rzeka w Polsce, będąca dopływem Narwi, przepływająca przez zachodnią Ukrainę, wschodnią Polskę i zachodnią Białoruś.
-            <br/><br/>
-            <h6>Podlaski Przełom Bugu</h6>
-            Kraina leży w Polsce na obszarze województw: mazowieckiego, podlaskiego i lubelskiego, a na Białorusi obwodu brzeskiego. Zajmuje powierzchnię 673 km².
-            <br/><br/>
-            <p>Strona ma za zadanie pokazać piękno polskiego Bugu oraz atrakcje w jego okolicy. Życzę miłego przebywania na mojej stronie :)</p>
-
-        </div>
-        <div class="image">
-            <img id="image" src="images/bug.jpg" >
+        <div class="content-n">
+            <form class="form">
+                <label for="name">Podaj imię</label>
+                <input class="input" type="text" required  name="name">
+                <br>
+                <label for="name">Podaj nazwisko</label>
+                <input class="input" type="text" required name="name">
+                <br>
+                <label for="email">Podaj email</label>
+                <input class="input" type="email" required>
+                <br/>
+                <textarea class="input" name="com" placeholder="Komentarz (opcjonalnie)" cols="30" rows="10"></textarea>
+                <button class="submit" type="submit">Wyślij</button>
+            </form>
+            <img src="images/bug3.jpg" id="image-f">
         </div>
 
         <div class="footer">
             Copyright © 2021 Jakub Dobosz. Wszystkie prawa zastrzeżone.
-        </div>
+        </div> 
     </div>
-    <source src="plik.mp3" loop autoplay type='audio/mpeg'>
-
-    <script src="js/index.js"></script>
-</body>
+</body> 
 </html>
