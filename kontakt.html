@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,26 +20,32 @@
             <a href="kontakt.html" class="nav-link">Kontakt</a> 
         </div>
         
-        <div class="content-n">
-            <form class="form">
+        <div class="content-n" id="content">
+            
+            <h2 class="text">Skontaktuj się</h2>
+            <hr/>
+            <form class="form" method="POST" action="index.php">
                 <label for="name">Podaj imię</label>
                 <input class="input" type="text" required  name="name">
                 <br>
-                <label for="name">Podaj nazwisko</label>
-                <input class="input" type="text" required name="name">
+                <label for="surname">Podaj nazwisko</label>
+                <input class="input" type="text" required name="surname">
                 <br>
                 <label for="email">Podaj email</label>
-                <input class="input" type="email" required>
+                <input class="input" type="email" name="email" required>
                 <br/>
-                <textarea class="input" name="com" placeholder="Komentarz (opcjonalnie)" cols="30" rows="10"></textarea>
+                <textarea class="input" name="com" placeholder="Komentarz (opcjonalnie)" cols="30" rows="5"></textarea>
                 <button class="submit" type="submit">Wyślij</button>
             </form>
-            <img src="images/bug3.jpg" id="image-f">
+            <img src="images/bug3.jpg" class="image-f" id="image">
         </div>
+        
+       
 
         <div class="footer">
             Copyright © 2021 Jakub Dobosz. Wszystkie prawa zastrzeżone.
         </div> 
     </div>
+    <script src="js/index.js"></script>
 </body> 
 </html>
